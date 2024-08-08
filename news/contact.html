@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact us</title>
+    <style type="text/css">
+         #hi{
+            height: 10px;
+            width: 100%;
+            background-color: palegoldenrod;
+
+         }
+         
+
+    </style>
+</head>
+<body>
+    <a href="htmlexam.html"><--back</a><br><br>
+        <h1 style="text-align:center;color: white;" ><span style="background: black;">B</span><span style="background:white;"> </span><span style="background: black;"> B</span><span style="background:white;"> </span><span style="background: black;"> C</span></h1>
+
+
+	<h1 style="background: gray;color: black;padding-left: 650px;">Contact the BBC</h1>
+    <div id="hi"></div>
+    <h2 style="margin-left:50px;"><a href="#help" style="margin-left:50px;"> |Help and FAQs</a>|  <a href="#Comments" style="margin-left:50px;"> |Comments </a> |<a href="#Complaints"style="margin-left:50px;">|Complaints|</a></h2>
+
+    <div id="help">
+    	<h1>Help and FAQs</h1>
+    	<p>In this help site we have gathered together our most frequently asked questions asked by our audience. You can use the search bar above to search our FAQs. Top Tip: Try searching with a keyword, like the name of the programme or service you have a question about.</p>
+        <p>If any of our FAQs don't answer your question see How can I ask a question about a BBC programme or service? or How can I contact the BBC?</p>
+
+
+    </div>
+
+    <div id="Comments">
+
+
+    	<h1>Comments</h1>
+    	<p>We appreciate all comments, appreciative or otherwise, as it’s helpful to know what you think. We will circulate your comment the next morning for all staff to see.</p>
+    	<p>If you would like to understand how we collect and use personal data, please refer to our privacy notice.</p>
+        <form action="login.html" target="_blank" method="get">
+    	<textarea cols="30" rows="2"></textarea>
+    	<input type="submit" name="submit">
+    </form>
+
+
+
+    </div>
+    <div id="Complaints">
+
+
+    	<h1>Complaints</h1>
+    	<p>These pages have information about how to complain to the BBC, with links to the BBC’s Complaints Framework, the BBC’s regulator Ofcom and regular reports about complaints.</p>
+        <form action="login.html" target="_blank" method="get">
+        <label for="name" style="text-align: center;">Name</label>
+        <br>
+    	<input type="text" name="name">
+    	<br>
+    	<label for=number>Number</label>
+        <br>
+    	<input type="text" name="number" pattern="{0-9}" maxlength="10" autofocus>
+        <br>
+        <br>
+        <label for=communication>Type of communication</label> 
+        <br>       
+        <select>
+            <option value="enquiry">enquiry</option>
+            <option value="sales">sales</option>
+            <option value="service">service</option>
+            
+            <option value="advertisement or compliant">advertisement or compliant</option>
+        </select>
+        <br>
+        <br>
+
+       <label for=Description>Description</label>
+       <br>
+        <textarea cols="10" rows="10" placeholder="Description"></textarea>
+        <br>
+        <br>
+        <input type="submit" name="submit" value="submit" style="color: red;">
+        <input type="reset" name="reset" value="reset">
+        
+    </form>
+    </div>
+</body>
+</html>
